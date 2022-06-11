@@ -170,13 +170,13 @@ public class Game : MonoBehaviour
 
     public void DarkMage()
     {
-        if (currentScore >= holyMagePrice)
+        if (currentScore >= darkMagePrice)
         {
-            currentScore = currentScore - holyMagePrice;
-            holyMageCount += 1;
-            holyMageProfit += 759375;
+            currentScore = currentScore - darkMagePrice;
+            darkMageCount += 1;
+            darkMageProfit += 759375;
             x += 759375;
-            holyMagePrice += 8000000;
+            darkMagePrice += 8000000;
         }
     }
 }
