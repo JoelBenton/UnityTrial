@@ -91,12 +91,12 @@ public class Game : MonoBehaviour
         darkMageText.text = darkMagePrice + " pebbles";
 
         // Amount
-        fireMageAmount.text = "fire Mage: " + fireMageCount + " Mages: " + fireMageProfit + "/s";
-        earthMageAmount.text = "earth Mage: " + earthMageCount + " Mages: " + earthMageProfit + "/s";
-        airMageAmount.text = "air Mage: " + airMageCount + " Mages: " + airMageProfit + "/s";
-        auraMageAmount.text = "aura Mage: " + auraMageCount + " Mages: " + auraMageProfit + "/s";
-        holyMageAmount.text = "holy Mage: " + holyMageCount + " Mages: " + holyMageProfit + "/s";
-        darkMageAmount.text = "dark Mage: " + darkMageCount + " Mages: " + darkMageProfit + "/s";
+        fireMageAmount.text = "Fire: " + fireMageCount + " - " + fireMageProfit + "/s";
+        earthMageAmount.text = "Earth: " + earthMageCount + " - " + earthMageProfit + "/s";
+        airMageAmount.text = "Air: " + airMageCount + " - " + airMageProfit + "/s";
+        auraMageAmount.text = "Aura: " + auraMageCount + " - " + auraMageProfit + "/s";
+        holyMageAmount.text = "Holy: " + holyMageCount + " - " + holyMageProfit + "/s";
+        darkMageAmount.text = "Dark: " + darkMageCount + " - " + darkMageProfit + "/s";
 
     }
 
